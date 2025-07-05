@@ -25,6 +25,7 @@ dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
 
+    implementation("org.scala-lang:scala-library:2.13.14")
     // Use Scalatest for testing our library
     testImplementation(libs.junit)
     testImplementation(libs.scalatest.v2.v13)
@@ -43,5 +44,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.App"
+    mainClass = "org.example.AppTimeCodes"
 }

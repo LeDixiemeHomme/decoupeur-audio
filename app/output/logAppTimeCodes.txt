@@ -1,0 +1,17 @@
+Calculating task graph as configuration cache cannot be reused because file 'app/build.gradle.kts' has changed.
+> Task :app:processResources NO-SOURCE
+> Task :app:compileJava NO-SOURCE
+> Task :app:compileScala UP-TO-DATE
+> Task :app:classes UP-TO-DATE
+
+> Task :app:run
+Running: ffmpeg -y -i /home/valle/Travail/Dev/java/decoupeur-audio/data/input.mp3 -ss 00:00:00.000 -to 00:01:30.000 -c copy output/part_01.mp3
+✅ Created output/part_01.mp3
+Running: ffmpeg -y -i /home/valle/Travail/Dev/java/decoupeur-audio/data/input.mp3 -ss 00:01:30.000 -to 00:03:00.000 -c copy output/part_02.mp3
+✅ Created output/part_02.mp3
+Running: ffmpeg -y -i /home/valle/Travail/Dev/java/decoupeur-audio/data/input.mp3 -ss 00:11:30.000 -to 00:13:00.000 -c copy output/part_03.mp3
+✅ Created output/part_03.mp3
+
+BUILD SUCCESSFUL in 957ms
+2 actionable tasks: 1 executed, 1 up-to-date
+Configuration cache entry stored.

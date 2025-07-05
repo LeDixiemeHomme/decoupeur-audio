@@ -1,0 +1,37 @@
+Calculating task graph as configuration cache cannot be reused because file 'app/build.gradle.kts' has changed.
+> Task :app:compileJava NO-SOURCE
+> Task :app:processResources NO-SOURCE
+> Task :app:compileScala
+> Task :app:classes
+
+> Task :app:run
+🎵 Extracting: A Warm Hearth (00:00:00.000 → 00:02:25.000)
+✅ output/01_A_Warm_Hearth.mp3
+🎵 Extracting: Northbound (00:02:25.000 → 00:05:21.000)
+✅ output/02_Northbound.mp3
+🎵 Extracting: The Forsaken Gate (00:05:21.000 → 00:07:30.000)
+✅ output/03_The_Forsaken_Gate.mp3
+🎵 Extracting: Burial Rites (00:07:30.000 → 00:09:38.000)
+✅ output/04_Burial_Rites.mp3
+🎵 Extracting: Ancient Mountain (00:09:38.000 → 00:12:00.000)
+✅ output/05_Ancient_Mountain.mp3
+🎵 Extracting: Sheltered Among Ruins (00:12:00.000 → 00:14:45.000)
+✅ output/06_Sheltered_Among_Ruins.mp3
+🎵 Extracting: Dawn Comes Early (00:14:45.000 → 00:16:21.000)
+✅ output/07_Dawn_Comes_Early.mp3
+🎵 Extracting: Caverns of the Old Gods (00:16:21.000 → 00:20:52.000)
+✅ output/08_Caverns_of_the_Old_Gods.mp3
+🎵 Extracting: Fires of Freya (00:20:52.000 → 00:23:21.000)
+✅ output/09_Fires_of_Freya.mp3
+🎵 Extracting: Spirit of the North (00:23:21.000 → 00:27:07.000)
+✅ output/10_Spirit_of_the_North.mp3
+🎵 Extracting: Mists Among the Greenwood (00:27:07.000 → 00:29:18.000)
+✅ output/11_Mists_Among_the_Greenwood.mp3
+🎵 Extracting: Descent (00:29:18.000 → 00:32:32.000)
+✅ output/12_Descent.mp3
+🎵 Extracting: A Hearth Beyond the Horizon (00:32:32.000 → 00:36:37.000)
+✅ output/13_A_Hearth_Beyond_the_Horizon.mp3
+
+BUILD SUCCESSFUL in 6s
+2 actionable tasks: 2 executed
+Configuration cache entry stored.
